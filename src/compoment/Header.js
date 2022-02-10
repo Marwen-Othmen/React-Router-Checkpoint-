@@ -3,9 +3,9 @@ import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown } from '
 import { LinkContainer } from 'react-router-bootstrap';
 import { Rating } from 'react-simple-star-rating'
 
-function Header({filterMovie}) {
-  const [searchText, setsearch] = useState();
-    const [rating, setrating] = useState();
+function Header({setsearch,setrating}) {
+  // const [searchText, setsearch] = useState();
+  //   const [rating, setrating] = useState(0);
   
   return <div>
 <Navbar bg="light" expand="lg">
@@ -49,7 +49,7 @@ function Header({filterMovie}) {
                 aria-label="Search"
                 onChange={(e)=>setsearch(e.target.value)}
         />
-        <Button onClick={()=>filterMovie(searchText,rating)} variant="outline-success">Search</Button>
+        <Button  variant="outline-success">Search</Button>
       </Form>
     </Navbar.Collapse>
   </Container>

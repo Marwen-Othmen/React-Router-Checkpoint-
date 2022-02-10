@@ -49,7 +49,7 @@ export const Data = [
         "Lucy Miller est une jeune femme vivant à Taipei (Taiwan), dans un monde où les humains n'utilisent que 10 pourcent des capacités de leur cerveau. Prise dans un guet-apens par la mafia coréenne, elle est contrainte de faire la mule pour des trafiquants de drogue qui insèrent un paquet de poudre bleue dans son ventre, le CPH4, produit de synthèse expérimental.",
       posterUrl:
         "https://medias.unifrance.org/medias/192/243/127936/format_page/media.jpg",
-      trailer:"https://www.youtube.com/watch?v=MVt32qoyhi0&ab_channel=MovieclipsComingSoon",
+      trailer:"https://www.youtube.com/embed/MovieclipsComingSoon",
     },
     {
       id: 6,
@@ -59,6 +59,6 @@ export const Data = [
         "John Wick a transgressé une règle fondamentale: il a tué à l'intérieur même de l'Hôtel Continental. Excommunié, tous les services liés au Continental lui sont fermés et sa tête est mise à prix. John se retrouve sans soutien, traqué par tous les plus dangereux tueurs du monde.",
       posterUrl:
         "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQhxvnZmfh1J2IrXfYHfRX3R5-nYgHzu12jbRbrKc1xEElnH645",
-      trailer:"https://youtu.be/C0BMx-qxsP4",
+      trailer:"https://youtu.be/embed/C0BMx-qxsP4",
     },
 ]
